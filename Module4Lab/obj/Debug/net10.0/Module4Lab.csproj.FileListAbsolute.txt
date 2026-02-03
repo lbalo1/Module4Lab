@@ -1,0 +1,9 @@
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.AssemblyInfoInputs.cache
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.AssemblyInfo.cs
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.csproj.CoreCompileInputs.cache
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.RazorAssemblyInfo.cache
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.RazorAssemblyInfo.cs
+/workspaces/Module4Lab/Module4Lab/obj/Debug/net10.0/Module4Lab.sourcelink.json
