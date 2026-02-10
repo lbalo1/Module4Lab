@@ -5,39 +5,40 @@
 }
 
 <div class="container mt-5">
-    <h1 class="Text-center">🎭 Guthrie Theater 🎭</h1>
-
+    <h1 class="text-center">🎭  Guthrie Theater 🎭</h1>
+    
     <div class="card mt-4">
         <div class="card-body">
             <h5>Current Shows:</h5>
-            <ul class = "list-group">
-                <! -- Loop through the SampleShows array and display each element of the arry -->
-                @for (int i = 0; i < Model.SampleShows.Length; i++) {
+            <ul class="list-group">
+                @for (int i = 0; i < Model.SampleShows.Length; i++)
+                {
                     <li class="list-group-item">@Model.SampleShows[i]</li>
-                } 
+                }
             </ul>
         </div>
     </div>
-    <!-- Display the form results here only if the form subment button has been clicked >
+
     @if (!Model.ShowResults)
     {
-    //if the showresults varible is false, display the form
-    <div class="card mt-4">
-    <h5>Add Your Shows</h5>
-    <form> method="post">
-    
-        @for (int i = 0; i < 3; i++) {
-            <div class="mb-3">
-                <label class="form-label">Show #@((i+1):</label>
-                <input type="text" name="show[@i]" class="form-control"
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5>Add Your Shows</h5>
+                <form method="post">
+                    @for (int i = 0; i < 3; i++)
+                    {
+                        <div class="mb-3">
+                            <label class="form-label">Show #@(i + 1):</label>
+                            <input type="text" name="Shows[@i]" class="form-control" required>
+                        </div>
+                    }
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-        }
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    </div>
+        </div>
     }
-</div>
-@if (Model.ShowResults)
+
+    @if (Model.ShowResults)
     {
         <div class="card mt-4">
             <div class="card-body">
